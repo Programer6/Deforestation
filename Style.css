@@ -1,0 +1,148 @@
+/*Imports font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  
+.header-main {
+    width: 100%;
+    height: 70px;
+    background-color: #d68167; 
+    display: flex;
+    justify-content: space-around; /* To to equal space between the header navigation and social  media icons */
+    align-items: center; /* Align items vertically */
+    padding: 0; /* o padding top to botton and 0padding left and right*/
+    
+}
+
+/* Styling for logo */
+.header-main-logo img {
+    height: 70px; /* Set logo height */
+    width: auto; 
+}
+
+.header-main-nav ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add right margin to create space between items */
+}
+
+.header-main-nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: #00483a; 
+}
+
+/* Styling for social media icons */
+.social-media-icon {
+    margin-left: 10px; /* Add left margin to create space between icons */
+    position: relative; /* Enable positioning context */
+    display: inline-block; /* Display icons inline */
+}
+
+.social-media-icon img {
+    height: 30px; /* Set icon height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.header-main-moto {
+    color: #00483a;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  }
+
+h2 {
+    font-family: Arial;
+  }
+
+p, li {
+    font-family: Arial;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  body {
+    background-color: #f1efeb;
+    font-family: Arial, sans-serif;
+  }
+
+  .button {
+    background-color: #d68167; 
+    border: none;
+    color: #00483a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+.carousel {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 530px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #d68167;
+  color: #00483a;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+  
+footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+  }
+
